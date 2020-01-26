@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -21,7 +21,7 @@
   var CONFIG = {
     hostname: new URL('https://libincn-hnu.github.io').hostname,
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Gemini',
     version: '7.6.0',
     exturl: false,
     sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
@@ -47,12 +47,14 @@
 
   <meta name="description" content="Blog Website">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Libincn-HNU">
+<meta property="og:title" content="Libincn">
 <meta property="og:url" content="https://libincn-hnu.github.io/archives/2020/index.html">
-<meta property="og:site_name" content="Libincn-HNU">
+<meta property="og:site_name" content="Libincn">
 <meta property="og:description" content="Blog Website">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Bin Li">
+<meta property="article:tag" content="newer">
+<meta property="article:tag" content="first">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="https://libincn-hnu.github.io/archives/2020/">
@@ -69,7 +71,7 @@
   };
 </script>
 
-  <title>Archive | Libincn-HNU</title>
+  <title>归档 | Libincn</title>
   
 
 
@@ -113,14 +115,15 @@
     <div>
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Libincn-HNU</span>
+        <span class="site-title">Libincn</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+        <p class="site-subtitle">简单的标题</p>
   </div>
 
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -134,12 +137,12 @@
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
   </ul>
@@ -169,7 +172,7 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">Um..! 2 posts in total. Keep on posting.</span>
+        <span class="collection-header">嗯..! 目前共计 5 篇日志。 继续努力。</span>
       </div>
 
       
@@ -182,15 +185,15 @@
 
       <div class="post-meta">
         <time itemprop="dateCreated"
-              datetime="2020-01-26T17:24:05+08:00"
+              datetime="2020-01-26T18:44:24+08:00"
               content="2020-01-26">
           01-26
         </time>
       </div>
 
       <h2 class="post-title">
-          <a class="post-title-link" href="/2020/01/26/MyfirstArticle/" itemprop="url">
-            <span itemprop="name">MyfirstArticle</span>
+          <a class="post-title-link" href="/lb3.html" itemprop="url">
+            <span itemprop="name">lb3</span>
           </a>
       </h2>
 
@@ -202,15 +205,35 @@
 
       <div class="post-meta">
         <time itemprop="dateCreated"
-              datetime="2020-01-26T10:06:24+08:00"
+              datetime="2020-01-26T18:44:20+08:00"
               content="2020-01-26">
           01-26
         </time>
       </div>
 
       <h2 class="post-title">
-          <a class="post-title-link" href="/2020/01/26/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
+          <a class="post-title-link" href="/lb2.html" itemprop="url">
+            <span itemprop="name">lb2</span>
+          </a>
+      </h2>
+
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-01-26T18:44:15+08:00"
+              content="2020-01-26">
+          01-26
+        </time>
+      </div>
+
+      <h2 class="post-title">
+          <a class="post-title-link" href="/lb1.html" itemprop="url">
+            <span itemprop="name">lb1</span>
           </a>
       </h2>
 
@@ -225,6 +248,9 @@
   
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/archives/2020/page/2/">2</a><a class="extend next" rel="next" href="/archives/2020/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
 
 
 
@@ -245,10 +271,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -267,8 +293,8 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
@@ -299,10 +325,10 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Bin Li</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.0
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.6.0
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.6.0
   </div>
 
         
@@ -329,7 +355,7 @@
 <script src="/js/motion.js"></script>
 
 
-<script src="/js/schemes/muse.js"></script>
+<script src="/js/schemes/pisces.js"></script>
 
 
 <script src="/js/next-boot.js"></script>
